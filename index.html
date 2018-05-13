@@ -1,0 +1,61 @@
+<!Doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <title>Carousel</title>
+    </head>
+    
+    <body>
+        <h1 class="title">Carousel with JavaScript</h1>
+       
+        <!-- Step's -->
+        <section class='step-container'>
+            <div class='step active' data-step='1'>
+                <img src="https://cdn2.hubspot.net/hubfs/3877438/imagenes/connect.png">
+                <p>1</p>
+            </div>
+            <div class='step' data-step='2'>
+                <img src="https://cdn2.hubspot.net/hubfs/3877438/imagenes/play.png">
+                <p>2</p>
+            </div>
+            <div class='step' data-step='3'>
+                <img src="https://cdn2.hubspot.net/hubfs/3877438/imagenes/account.png">
+                <p>3</p>
+            </div>
+            <div class='step' data-step='4'>
+                <img src="https://cdn2.hubspot.net/hubfs/3877438/imagenes/finish.png">
+                <p>4</p>
+            </div>
+        </section>
+        
+        <!-- Images a mostrar por cada step -->
+        <section class="img-container">
+            <div class="step-content active" data-step='1'>
+                <img class="img-step" src="https://cdn2.hubspot.net/hubfs/3877438/imagenes/rsz_enchufe.jpg">
+                <h3 class="step-content__title">Enchufás la cámara al toma corriente</h3>
+            </div>
+            
+            <div class="step-content" data-step='2'>
+                <img class="img-step" src="https://cdn2.hubspot.net/hubfs/3877438/imagenes/install.jpg">
+                <h3 class="step-content__title">Bajás la app a tu teléfono (Android o iPhone)</h3>
+            </div>
+            
+            <div class="step-content" data-step='3'>
+                <img class="img-step" src="https://cdn2.hubspot.net/hubfs/3877438/imagenes/registro.jpg">
+                <h3 class="step-content__title">Ingresás tus datos en el teléfono</h3>
+            </div>
+            
+            <div class="step-content" data-step='4'>
+                <img class="img-step" src="https://cdn2.hubspot.net/hubfs/3877438/imagenes/visualiza.jpg">
+                <h3 class="step-content__title">Comenzás a visualizar</h3>
+            </div>
+        </section>
+        
+        <!-- Script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="function.js"></script>
+    </body>
+</html>
